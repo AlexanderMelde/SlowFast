@@ -70,7 +70,7 @@ _C.TRAIN.AUTO_RESUME = True
 # Path to the checkpoint to load the initial weight.
 _C.TRAIN.CHECKPOINT_FILE_PATH = ""
 
-# Checkpoint types include `caffe2` or `pytorch`.
+# Checkpoint types include `caffe2` (.pkl) or `pytorch` (.pyth).
 _C.TRAIN.CHECKPOINT_TYPE = "pytorch"
 
 # If True, perform inflation when loading checkpoint.
